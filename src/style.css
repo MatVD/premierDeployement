@@ -1,0 +1,22 @@
+div.card {
+    height: 700px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+div.card h1,
+div.card p {
+    text-align: center;
+}
+
+
+div.body img {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
