@@ -4,6 +4,9 @@
 }
 
 .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
   background: #222f3e;
   color: #feca57;
@@ -22,6 +25,8 @@
 }
 
 .main-content {
+  background: #add8e6;
+  border-radius: 15px;
   color: #202020;
   margin: auto;
   text-align: center;
@@ -30,5 +35,9 @@
   width: 80%;
   max-width: 1200px;
   min-height: 500px;
+}
+
+.main-content img {
+  border-radius: 5%;
 }
 /*# sourceMappingURL=style.css.map */

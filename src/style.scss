@@ -1,12 +1,16 @@
 $background-dark: #222f3e;
+$background-lightblue: #add8e6;
 $text-light: #feca57;
 $text-dark: #202020;
 $shadow-light: 4px 4px 10px #d6d6d6;
+
+
 .header,
 .main-content {
   padding: 20px;
 }
 .header {
+  display: flex;
   position: relative;
   background: $background-dark;
   color: $text-light;
@@ -25,6 +29,8 @@ $shadow-light: 4px 4px 10px #d6d6d6;
 }
 
 .main-content {
+  background: $background-lightblue;
+  border-radius: 15px;
   color: $text-dark;
   margin: auto;
   text-align: center;
@@ -32,4 +38,8 @@ $shadow-light: 4px 4px 10px #d6d6d6;
   width: 80%;
   max-width: 1200px;
   min-height: 500px;
+}
+
+.main-content img {
+  border-radius: 5%;
 }
