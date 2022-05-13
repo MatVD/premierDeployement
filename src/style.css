@@ -1,3 +1,33 @@
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 30px;
+    background: lightblue;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+header ul {
+    margin-top: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 100%;
+    margin-right: 15px;
+}
+
+li.navigation a {
+    text-decoration: none;
+    margin-left: 10px;
+    color: black;
+}
+
 div.card {
     height: 700px;
     width: 300px;
@@ -20,3 +50,4 @@ div.body img {
     margin-bottom: 20px;
     border-radius: 50%;
 }
+
