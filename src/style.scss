@@ -80,12 +80,12 @@ body {
     padding: 5px;
     margin: 20px 10px 10px 10px;
     max-width: 400px;
-    width: 250px;
+    width: 200px;
     box-shadow: $shadow-light;
 
     &:hover {
       background-color: white;
-      width: 270px;
+      width: 250px;
       padding: 10px;
       transition: all 0.5s ease 0s;
       span {
